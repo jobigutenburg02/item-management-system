@@ -1,0 +1,103 @@
+.landing-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .search-filter {
+    margin: 20px 0;
+  }
+  
+  .search-filter input {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .item-form {
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  
+  .category-group {
+    margin-bottom: 40px;
+  }
+  
+  .category-group h3 {
+    background: #e0e0e0;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .items-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .items-table th, 
+  .items-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .items-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-btn {
+    background: #4CAF50;
+    color: white;
+  }
+  
+  .delete-btn {
+    background: #f44336;
+    color: white;
+  }
+  
+  .submit-btn {
+    background: #2196F3;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .no-items {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+  }
+
+  /* LandingPage.css */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0;
+  }
+  
+  .pagination button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .pagination select {
+    padding: 5px;
+  }
