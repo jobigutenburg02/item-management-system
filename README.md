@@ -10,6 +10,6 @@ Tech Stack used
 
 Frontend	   -   React, TailwindCSS;
 Backend	     -   Django REST Framework;
-Deployment	 -   Vercel (Frontend);
+Deployment	 -   Vercel (Frontend) + Railway (Backend);
 
 Frontend deployment link: https://vercel.com/jobigutenburg02s-projects/item-management-system
