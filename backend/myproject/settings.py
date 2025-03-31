@@ -20,7 +20,7 @@ DATABASES = {
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-ALLOWED_HOSTS = ['your-render-app.onrender.com', 'item-management-system.vercel.app']
+ALLOWED_HOSTS = ['myproject.up.railway.app', 'item-management-system.vercel.app','*']
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
