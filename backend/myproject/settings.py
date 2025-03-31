@@ -35,9 +35,7 @@ SECRET_KEY = 'django-insecure-kzwz%ak2rwj7hsk5*8!isr_y75vd#=&o@%m%j*sug6oy9kf&i@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
-
+ALLOWED_HOSTS = ['myproject.up.railway.app', 'item-management-system.vercel.app','*']
 # Application definition
 
 INSTALLED_APPS = [
